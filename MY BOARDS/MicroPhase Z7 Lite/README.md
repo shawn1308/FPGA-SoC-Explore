@@ -9,3 +9,8 @@ Example :
 ```tcl
 create_project Template C:/Users/shawn/Documents/PROJETS/FPGA/MicroPhase/FPGA/Template -part xc7z010clg400-1
 ```
+
+Change VHDL as project Language : 
+```tcl
+set_property target_language VHDL [current_project]
+```
